@@ -19,7 +19,7 @@ def decrypt(key1, key2):
     temp = decrypted.to_bytes((decrypted.bit_length() + 7) // 8, "big")
     return temp.decode()
 
-key1, key2 = encrypt("One Time Pad!")
+key1, key2 = encrypt("Hello World")
 print(key2)
 result = decrypt(key1, key2)
 print(result)
