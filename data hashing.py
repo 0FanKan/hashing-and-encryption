@@ -68,6 +68,7 @@ def decrypt(path_save, path_create):
             all_hash = all_hash ^ all_string
             secondary_hash = all_string
             print(int_to_string(all_string, length))
+       # ...
 
 
 if __name__ == "__main__":
